@@ -1,14 +1,14 @@
 import { useState } from 'react'
-import Component from './Component'
 import MainPage from './Pages/MainPage'
+import Frames from './Pages/Frames'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
         <div>
-        <Component/>
         <MainPage/>
+        <Frames/>
       </div>
       
   )
