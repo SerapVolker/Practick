@@ -34,12 +34,13 @@ button{
         background-color: #3c00f2ff;
         width: 180px;
         height: 70px;
-        font-size: 20px;
+        font-size: 22px;
         color: white;
     }
 button:hover{ 
-background-color: #000000ff; 
+background-color: #e3e3e3ff; 
   transform: translateX(0px); 
+  color: black;
         }
  `
 const Frame = styled.div`
@@ -64,7 +65,8 @@ font-weight: lighter;
 
 `
 const Button1 = styled.div`
-margin-top:-600px;
+margin-top:;
+z-index:1;
 button{
       
         background-color: #3c00f2ff;
@@ -74,14 +76,17 @@ button{
         color: white;
     }
 button:hover{ 
-background-color: #000000ff; 
+background-color: #e3e3e3ff; 
   transform: translateX(0px); 
+  color: black;
         }
  
 `
 const Lines = styled.div`
 margin-top: -400px;
 margin-left: -130px;
+position:absolute;
+    z-index: -1;
 `
 const MainPage = () => {
   return (
