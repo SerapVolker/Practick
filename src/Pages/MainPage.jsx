@@ -104,7 +104,7 @@ const MainPage = () => {
   <Text1><h1>more powerful</h1></Text1>
   <Text2><h1>with us</h1></Text2>
   <Text3><p>We provide various services to make<br/> your business grow and get bigger. Your<br/> satisfaction is our first priority.</p></Text3>
- <Lines><img src={Line}/></Lines>
+ <Lines><img src={Line}width={1580}height={800}/></Lines>
  <Button1><button>Get started →</button></Button1>
  
 </Frame>

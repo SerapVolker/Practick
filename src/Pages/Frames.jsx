@@ -1,17 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
-import Cart from "../Photo/Cart.png"
-import CartAlt from "../Photo/CartAlt.png"
-import Cart1 from "../Photo/Cart1.png"
-import Cart1Alt from "../Photo/Cart1Alt.png"
-import Cart2 from "../Photo/Cart2.png"
-import Cart2Alt from "../Photo/Cart2Alt.png"
-import Cart3 from "../Photo/Cart3.png"
-import Cart3Alt from "../Photo/Cart3Alt.png"
-import Cart4 from "../Photo/Cart4.png"
-import Cart4Alt from "../Photo/Cart4Alt.png"
-import Cart5 from "../Photo/Cart5.png"
-import Cart5Alt from "../Photo/Cart5Alt.png"
+import Cart from "../Photo/Cart.svg"
+import CartAlt from "../Photo/CartAlt.svg"
+import Cart1 from "../Photo/Cart1.svg"
+import Cart1Alt from "../Photo/CartAlt1.svg"
+import Cart2 from "../Photo/Cart2.svg"
+import Cart2Alt from "../Photo/CartAlt2.svg"
+import Cart3 from "../Photo/Cart3.svg"
+import Cart3Alt from "../Photo/CartAlt3.svg"
+import Cart4 from "../Photo/Cart4.svg"
+import Cart4Alt from "../Photo/CartAlt4.svg"
+import Cart5 from "../Photo/Cart5.svg"
+import Cart5Alt from "../Photo/CarAlt5.svg"
 import Line from '../Photo/Vector.png'
 const Container = styled.div`
 margin-top: px;
@@ -40,11 +40,11 @@ margin-left: 200px;
 `
 const Carts1 = styled.div`
 margin-left: 580px;
-margin-top: -464px;
+margin-top: -470px;
 `
 const Carts2 = styled.div`
 margin-left: 960px;
-margin-top: -464px;
+margin-top: -470px;
 `
 const Carts3 = styled.div`
 margin-left: 200px;
@@ -52,18 +52,16 @@ margin-top: 50px;
 `
 const Carts4 = styled.div`
 margin-left: 580px;
-margin-top: -464px;
+margin-top: -470px;
 `
 const Carts5 = styled.div`
 margin-left: 960px;
-margin-top: -464px;
+margin-top: -470px;
 `
-
 const Background = styled.div`
  z-index: -1;
  position:absolute;
  margin-top: -600px;
-
 `
 const Frames = () => {
   return (
@@ -117,7 +115,7 @@ const Frames = () => {
   />
     </Carts5>
     <Background>
-      <img src={Line}/>
+      <img src={Line}  width={1580}height={800}/>
     </Background>
    </LineCart>
    
