@@ -4,9 +4,11 @@ import Frames from './Pages/Frames'
 import Frames2 from './Pages/Frames2'
 import Frame3 from './Pages/Frame3'
 import Carousel from './Pages/Carousel'
+import Frame4 from './Pages/Frames4'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
+
 
   return (
         <div>
@@ -15,6 +17,8 @@ function App() {
         <Frames2/>
         <Frame3/>
       
+       <Carousel/>
+         <Frame4/>
       </div>
       
   )

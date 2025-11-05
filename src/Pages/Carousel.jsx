@@ -1,73 +1,43 @@
 import React from 'react';
 import Slider from 'react-slick';
-import './Carousel.css';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Sliders from '../Photo/Slider.svg';
+import Arsen from '../Photo/i.webp'
+import styled from 'styled-components';
+import Negr from '../Photo/hegr.webp'
 
+const SimpleCarousel = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
 
-const Carousel = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-
-        appendDots: dots => (
-            <div>
-                <ul style={{
-                    margin: "0px", padding: "0px"
-                }}> {dots} </ul>
-            </div>
-        ),
-
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    initialSlide: 1
-                }
-            }
-        ]
-    };
-
-    return (
-        <>
-            <div className="full-width-carousel">
-                <Slider {...settings}>
-                    <div className="full-width-slide">
-                        <img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20240307153443/GeeksforGeeks-Offline-Classes.webp"
-                             alt="Slide 1" 
-                             className="slide-image" />
-                    </div>
-                    <div className="full-width-slide">
-                        <img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20240307153531/GeeksforGeeks-Classroom-Program---DSA-For-Interview-Preparation-Course.webp"
-                             alt="Slide 2" 
-                             className="slide-image" />
-                    </div>
-                    <div className="full-width-slide">
-                        <img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20240307153605/School-programming.png"
-                            alt="Slide 3" 
-                            className="slide-image" />
-                    </div>
-                </Slider>
-            </div>
-        </>
-    );
+  return (
+    <div style={{ maxWidth: '1550px', margin: 'auto' }}>
+    
+      <Slider {...settings}>
+        <div>
+    
+          <img src={Sliders} alt="Описание 1" style={{ width: '100%' }} />
+        </div>
+        <div>
+          
+          <img src={Arsen} alt="Описание 2" style={{ width: '1550px',height: '560px' }} />
+        </div>
+        <div>
+      
+          <img src={Negr} alt="Описание 3" style={{ width: '1550px',height: '560px' }} />
+        </div>
+        
+      </Slider>
+    </div>
+  );
 };
 
-export default Carousel;
+export default SimpleCarousel;

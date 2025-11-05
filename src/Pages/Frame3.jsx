@@ -27,7 +27,7 @@ const Image = styled.div`
 `
 const Photo = styled.div`
 margin-top: 70px;      
-margin-left: 10%;
+margin-left: 5%;
 `
 const MiniText = styled.div`
 font-size: 24px;
@@ -37,7 +37,7 @@ color: #ffffffff;
 `
 const Photo1 = styled.div`
 margin-top: -393px;      
-margin-left: 42%;
+margin-left: 37%;
 `
 const MiniText1 = styled.div`
 font-size: 24px;
@@ -47,7 +47,7 @@ color: #ffffffff;
 `
 const Photo2 = styled.div`
 margin-top: -519px;      
-margin-left: 75%;
+margin-left: 70%;
 `
 const MiniText2 = styled.div`
 font-size: 24px;
@@ -57,7 +57,7 @@ color: #ffffffff;
 `
 const Photo3 = styled.div`
 margin-top: ;      
-margin-left: 10%;
+margin-left: 5%;
 `
 const MiniText3 = styled.div`
 font-size: 24px;
@@ -67,7 +67,7 @@ color: #fffafaff;
 `
 const Photo4 = styled.div`
 margin-top: -410px;      
-margin-left: 42%;
+margin-left: 37%;
 `
 const MiniText4 = styled.div`
 font-size: 24px;
@@ -77,7 +77,7 @@ color: #ffffffff;
 `
 const Photo5 = styled.div`
 margin-top: -490px;      
-margin-left: 75%;
+margin-left: 70%;
 `
 const MiniText5 = styled.div`
 font-size: 24px;
