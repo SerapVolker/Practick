@@ -1,34 +1,38 @@
-
-import React, { useState } from 'react';
-import './Accordion.css'; // Подключите файл стилей CSS
-
-const Frames4 = ({ title, children }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleAccordion = () => {
-    setIsOpen(!isOpen);
-  };
-
+import React from 'react'
+import styled from 'styled-components'
+import Image from '../Photo/Image.svg'
+const Container = styled.div`
+`
+const Maintext = styled.div`
+color: red;
+margin-left: 660px;
+margin-top: 40px;
+font-size: 20px;
+`
+const Maintext2 = styled.div`
+color: Black;
+margin-left: 380px;
+margin-top: 10px;
+font-size: 40px;
+`
+const Background = styled.div`
+position:absolute;
+    z-index: -1;
+    margin-left: -50px;
+    margin-top: -650px;
+`
+const Frames4 = () => {
   return (
-    <div className="accordion-item">
-        <p>What are the services provided to customers?</p>
-      {/* Заголовок с кнопкой и стрелкой */}
-      <button className="accordion-header" onClick={toggleAccordion}>
-        <span className="accordion-title">{title}</span>
-        {/* Стрелка меняет класс в зависимости от состояния */}
-        <span className={`accordion-arrow ${isOpen ? 'open' : ''}`}>
-          ▼
-        </span>
-      </button>
+    <Container>
+   <Maintext>
+  <strong>Frequently Ask Question</strong>
+   </Maintext>
+    <Maintext2><strong>Some of our frequently asked questions</strong></Maintext2>
+    <Background>
+ <img src={Image}/>
+    </Background>
+    </Container>
+  )
+}
 
-      {/* Содержимое, которое показывается или скрывается */}
-      <div className={`accordion-content ${isOpen ? 'show' : ''}`}>
-        <div className="accordion-body">
-          {children}
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default Frames4;
+export default Frames4

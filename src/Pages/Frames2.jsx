@@ -55,6 +55,11 @@ margin-top: -320px;
     height: 330px;
     background: #ffffffff;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    &:hover {
+    transform: translateY(-10px);
+     box-shadow: 0 20px 40px #005effff;
+    }
 `
 const Pack1 = styled.div`
 margin-left: 360px;    
@@ -63,6 +68,11 @@ margin-top: -410px;
     height: 330px;
     background: #ffffffff;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    &:hover {
+    transform: translateY(-10px);
+     box-shadow: 0 20px 40px #ffffffff;
+    }
 `
 const Pack2 = styled.div`
 margin-left: 360px;    
@@ -71,6 +81,11 @@ margin-top: 50px;
     height: 330px;
     background: #ffffffff;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    &:hover {
+    transform: translateY(-10px);
+     box-shadow: 0 20px 40px #ffffffff;
+    }
 `
 const Pack3 = styled.div`
 margin-left: 30px;    
@@ -79,6 +94,11 @@ margin-top: -250px;
     height: 330px;
     background: #ffffffff;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    &:hover {
+    transform: translateY(-10px);
+     box-shadow: 0 20px 40px #ffffffff;
+    }
 `
 const Text4 = styled.div`
 font-size: 80px;

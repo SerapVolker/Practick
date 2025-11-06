@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 98%;
   padding: 15px;
   background-color: #f9f9f9;
   border: none;
@@ -40,7 +40,8 @@
 
 /* Класс для отображения контента */
 .accordion-content.show {
-  max-height: 500px; /* Должно быть достаточно большим для контента */
+  max-height: 900px; /* Должно быть достаточно большим для контента */
+  font-size: 19px;
 }
 
 .accordion-body {

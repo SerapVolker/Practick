@@ -37,26 +37,56 @@ margin-top: 100px;
 `
 const Carts = styled.div`
 margin-left: 200px;
+transition: transform 0.3s ease;
+    &:hover {
+    transform: translateY(-10px);
+     box-shadow: 0 20px 40px #ffffffff;
+    }
 `
 const Carts1 = styled.div`
 margin-left: 580px;
 margin-top: -470px;
+transition: transform 0.3s ease;
+    &:hover {
+    transform: translateY(-10px);
+     box-shadow: 0 20px 40px #ffffffff;
+    }
 `
 const Carts2 = styled.div`
 margin-left: 960px;
 margin-top: -470px;
+transition: transform 0.3s ease;
+    &:hover {
+    transform: translateY(-10px);
+     box-shadow: 0 20px 40px #ffffffff;
+    }
 `
 const Carts3 = styled.div`
 margin-left: 200px;
 margin-top: 50px;
+transition: transform 0.3s ease;
+    &:hover {
+    transform: translateY(-10px);
+     box-shadow: 0 20px 40px #ffffffff;
+    }
 `
 const Carts4 = styled.div`
 margin-left: 580px;
 margin-top: -470px;
+transition: transform 0.3s ease;
+    &:hover {
+    transform: translateY(-10px);
+     box-shadow: 0 20px 40px #ffffffff;
+    }
 `
 const Carts5 = styled.div`
 margin-left: 960px;
 margin-top: -470px;
+transition: transform 0.3s ease;
+    &:hover {
+    transform: translateY(-10px);
+     box-shadow: 0 20px 40px #ffffffff;
+    }
 `
 const Background = styled.div`
  z-index: -1;
