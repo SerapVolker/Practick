@@ -58,7 +58,7 @@ margin-top: -320px;
     transition: transform 0.3s ease;
     &:hover {
     transform: translateY(-10px);
-     box-shadow: 0 20px 40px #005effff;
+     
     }
 `
 const Pack1 = styled.div`
@@ -71,7 +71,7 @@ margin-top: -410px;
     transition: transform 0.3s ease;
     &:hover {
     transform: translateY(-10px);
-     box-shadow: 0 20px 40px #ffffffff;
+     
     }
 `
 const Pack2 = styled.div`
@@ -84,7 +84,7 @@ margin-top: 50px;
     transition: transform 0.3s ease;
     &:hover {
     transform: translateY(-10px);
-     box-shadow: 0 20px 40px #ffffffff;
+     
     }
 `
 const Pack3 = styled.div`
@@ -97,7 +97,7 @@ margin-top: -250px;
     transition: transform 0.3s ease;
     &:hover {
     transform: translateY(-10px);
-     box-shadow: 0 20px 40px #ffffffff;
+     
     }
 `
 const Text4 = styled.div`

@@ -17,13 +17,13 @@ margin-top: 300px;
 const Text = styled.div`
 color: #ffffff;
 font-size: 20px;
-margin-left: 420px;
+margin-left: 390px;
 padding-top: 60px;
 `
 const Text1 = styled.div`
 color: #ffffff;
 font-size: 45px;
-margin-left: 300px;
+margin-left: 350px;
 padding-top: 10px;
 `
 
